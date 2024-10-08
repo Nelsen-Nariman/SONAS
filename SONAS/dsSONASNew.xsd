@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSONASNew" targetNamespace="http://tempuri.org/dsSONASNew.xsd" xmlns:mstns="http://tempuri.org/dsSONASNew.xsd" xmlns="http://tempuri.org/dsSONASNew.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSONASNew" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsSONASNew" msprop:Generator_UserDSName="dsSONASNew">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BUKTIREGISTER" msprop:Generator_TableClassName="BUKTIREGISTERDataTable" msprop:Generator_TableVarName="tableBUKTIREGISTER" msprop:Generator_TablePropName="BUKTIREGISTER" msprop:Generator_RowDeletingName="BUKTIREGISTERRowDeleting" msprop:Generator_RowChangingName="BUKTIREGISTERRowChanging" msprop:Generator_RowEvHandlerName="BUKTIREGISTERRowChangeEventHandler" msprop:Generator_RowDeletedName="BUKTIREGISTERRowDeleted" msprop:Generator_UserTableName="BUKTIREGISTER" msprop:Generator_RowChangedName="BUKTIREGISTERRowChanged" msprop:Generator_RowEvArgName="BUKTIREGISTERRowChangeEvent" msprop:Generator_RowClassName="BUKTIREGISTERRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STATION" msprop:Generator_ColumnVarNameInTable="columnSTATION" msprop:Generator_ColumnPropNameInRow="STATION" msprop:Generator_ColumnPropNameInTable="STATIONColumn" msprop:Generator_UserColumnName="STATION" type="xs:string" minOccurs="0" />
+              <xs:element name="RTYPE" msprop:Generator_ColumnVarNameInTable="columnRTYPE" msprop:Generator_ColumnPropNameInRow="RTYPE" msprop:Generator_ColumnPropNameInTable="RTYPEColumn" msprop:Generator_UserColumnName="RTYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="DOCNO" msprop:Generator_ColumnVarNameInTable="columnDOCNO" msprop:Generator_ColumnPropNameInRow="DOCNO" msprop:Generator_ColumnPropNameInTable="DOCNOColumn" msprop:Generator_UserColumnName="DOCNO" type="xs:string" minOccurs="0" />
+              <xs:element name="DOCNOENC" msprop:Generator_ColumnVarNameInTable="columnDOCNOENC" msprop:Generator_ColumnPropNameInRow="DOCNOENC" msprop:Generator_ColumnPropNameInTable="DOCNOENCColumn" msprop:Generator_UserColumnName="DOCNOENC" type="xs:string" minOccurs="0" />
+              <xs:element name="SHOP" msprop:Generator_ColumnVarNameInTable="columnSHOP" msprop:Generator_ColumnPropNameInRow="SHOP" msprop:Generator_ColumnPropNameInTable="SHOPColumn" msprop:Generator_UserColumnName="SHOP" type="xs:string" minOccurs="0" />
+              <xs:element name="TANGGAL" msprop:Generator_ColumnVarNameInTable="columnTANGGAL" msprop:Generator_ColumnPropNameInRow="TANGGAL" msprop:Generator_ColumnPropNameInTable="TANGGALColumn" msprop:Generator_UserColumnName="TANGGAL" type="xs:string" minOccurs="0" />
+              <xs:element name="JAM" msprop:Generator_ColumnVarNameInTable="columnJAM" msprop:Generator_ColumnPropNameInRow="JAM" msprop:Generator_ColumnPropNameInTable="JAMColumn" msprop:Generator_UserColumnName="JAM" type="xs:string" minOccurs="0" />
+              <xs:element name="STRUK" msprop:Generator_ColumnVarNameInTable="columnSTRUK" msprop:Generator_ColumnPropNameInRow="STRUK" msprop:Generator_ColumnPropNameInTable="STRUKColumn" msprop:Generator_UserColumnName="STRUK" type="xs:double" minOccurs="0" />
+              <xs:element name="KETER" msprop:Generator_ColumnVarNameInTable="columnKETER" msprop:Generator_ColumnPropNameInRow="KETER" msprop:Generator_ColumnPropNameInTable="KETERColumn" msprop:Generator_UserColumnName="KETER" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

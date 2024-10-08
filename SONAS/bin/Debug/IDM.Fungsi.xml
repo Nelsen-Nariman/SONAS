@@ -1,0 +1,233 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IDM.Fungsi
+</name>
+</assembly>
+<members>
+<member name="T:IDM.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangRequest1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangResponse1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangRequest2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangResponse2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangRequest1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangResponse1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangRequest2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangResponse2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangRequest1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangResponse1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangRequest2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IDM.DataSet1.BarangResponse2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IDM.dtMessage">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:IDM.dtMessage.messageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IDM.dtMessage.messageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IDM.dtMessage.messageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="P:IDM.ResponseEDC_DKI.SerialNum">
+serial number (6+10) (BIN ID + JCrd Serial Num)
+</member>
+<member name="T:IDM.limitedPromo_idmcard.Service">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:IDM.limitedPromo_idmcard.Service.HelloWorldCompleted">
+<remarks/>
+</member>
+<member name="E:IDM.limitedPromo_idmcard.Service.cek_kuota_limitedPromoCompleted">
+<remarks/>
+</member>
+<member name="E:IDM.limitedPromo_idmcard.Service.transaction_limitedPromoCompleted">
+<remarks/>
+</member>
+<member name="E:IDM.limitedPromo_idmcard.Service.do_ACKCompleted">
+<remarks/>
+</member>
+<member name="E:IDM.limitedPromo_idmcard.Service.reversalCompleted">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.HelloWorld">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.HelloWorldAsync">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.HelloWorldAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.cek_kuota_limitedPromo(IDM.limitedPromo_idmcard.cLimited_request[])">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.cek_kuota_limitedPromoAsync(IDM.limitedPromo_idmcard.cLimited_request[])">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.cek_kuota_limitedPromoAsync(IDM.limitedPromo_idmcard.cLimited_request[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.transaction_limitedPromo(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,IDM.limitedPromo_idmcard.cLimited_request[])">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.transaction_limitedPromoAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,IDM.limitedPromo_idmcard.cLimited_request[])">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.transaction_limitedPromoAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,IDM.limitedPromo_idmcard.cLimited_request[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.do_ACK(System.String)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.do_ACKAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.do_ACKAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.reversal(System.String)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.reversalAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.reversalAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:IDM.limitedPromo_idmcard.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.cLimited_request">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.cLimited_request.kodePromo">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.cLimited_request.cardNumber">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.cLimited_response">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.cLimited_response.KodePromo">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.cLimited_response.cardNumber">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.cLimited_response.response">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.HelloWorldCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.HelloWorldCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.HelloWorldCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.cek_kuota_limitedPromoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.cek_kuota_limitedPromoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.cek_kuota_limitedPromoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.transaction_limitedPromoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.transaction_limitedPromoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.transaction_limitedPromoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.do_ACKCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.do_ACKCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.do_ACKCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.reversalCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IDM.limitedPromo_idmcard.reversalCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IDM.limitedPromo_idmcard.reversalCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>
